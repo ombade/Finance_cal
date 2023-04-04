@@ -12,6 +12,7 @@ public class DashBoard extends AppCompatActivity {
     Button b2;
     Button b3;
     Button b4;
+    Button b5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,7 @@ public class DashBoard extends AppCompatActivity {
         b2 = findViewById(R.id.button2);
         b3 = findViewById(R.id.button3);
         b4 = findViewById(R.id.button4);
+        b5 = findViewById(R.id.button5);
 
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +47,14 @@ public class DashBoard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        b5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(DashBoard.this, com.example.emicalculator.credit.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         b4.setOnClickListener(new View.OnClickListener() {
@@ -54,6 +64,14 @@ public class DashBoard extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+//        b5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent=new Intent(DashBoard.this, com.example.emicalculator.credit.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }
