@@ -1,7 +1,8 @@
 # Financial Calculator App
 
 
-<a href="<a href="https://appetize.io/app/z6fgumz6fncqwq23d6uca24dae?device=pixel4&osVersion=11.0&scale=75">link text</a>">LIVE APP DEMO</a>
+
+<a href="https://appetize.io/app/z6fgumz6fncqwq23d6uca24dae?device=pixel4&osVersion=11.0&scale=75">LIVE APP DEMO</a>
 # Abstract
 
 - The aim of this project is to create an app that a user can use to carry out calculations on a daily basis. A user can have access to various calculators that are inbuilt in this application and are as follows :- Income Tax Calculation, EMI Calculation and Electricity Bill Calculation.
